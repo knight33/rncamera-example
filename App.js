@@ -37,7 +37,6 @@ export default class CameraScreen extends React.Component {
     recordOptions: {
       mute: false,
       maxDuration: 5,
-      quality: RNCamera.Constants.VideoQuality["288p"],
     },
     isRecording: false
   };
@@ -209,18 +208,19 @@ export default class CameraScreen extends React.Component {
         style={{
           flex: 1,
         }}
-        type={this.state.type}
-        flashMode={this.state.flash}
-        autoFocus={this.state.autoFocus}
-        zoom={this.state.zoom}
-        whiteBalance={this.state.whiteBalance}
-        ratio={this.state.ratio}
-        faceDetectionLandmarks={RNCamera.Constants.FaceDetection.Landmarks.all}
-        onFacesDetected={this.onFacesDetected}
-        onFaceDetectionError={this.onFaceDetectionError}
-        focusDepth={this.state.depth}
+        // type={this.state.type}
+        // flashMode={this.state.flash}
+        // autoFocus={this.state.autoFocus}
+        // zoom={this.state.zoom}
+        // whiteBalance={this.state.whiteBalance}
+        // ratio={this.state.ratio}
+        // faceDetectionLandmarks={RNCamera.Constants.FaceDetection.Landmarks.all}
+        // onFacesDetected={this.onFacesDetected}
+        // onFaceDetectionError={this.onFaceDetectionError}
+        // focusDepth={this.state.depth}
         permissionDialogTitle={'Permission to use camera'}
         permissionDialogMessage={'We need your permission to use your camera phone'}
+        defaultVideoQuality={RNCamera.Constants.VideoQuality["480p"]}
       >
         <View
           style={{
