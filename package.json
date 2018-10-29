@@ -21,7 +21,6 @@
   "scripts": {
     "clear": "node node_modules/react-native/local-cli/cli.js start --reset-cache",
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest",
-    "postinstall": "scripts/post.sh"
+    "test": "jest"
   }
 }
