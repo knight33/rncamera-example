@@ -6,7 +6,7 @@
     "babel": "^6.23.0",
     "react": "16.5.0",
     "react-native": "0.57.1",
-    "react-native-camera": "https://github.com/listicos/react-native-camera.git#fix/flicker-video-recording"
+    "react-native-camera": "https://github.com/listicos/react-native-camera.git#eb7d5e206f5b21c4324a29f91dfb92b20dc615cf"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
